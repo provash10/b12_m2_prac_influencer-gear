@@ -23,7 +23,7 @@
     display: flex;
 }
 .container{
-    max-width: 1280px;
+    max-width: 1140px;
     margin: auto;
 }
 .gear-btn {
@@ -66,7 +66,8 @@
     width: 100%;
     justify-content: space-between;
     gap: 1rem;
-    margin: 100px 120px;
+    margin: 90px 120px 10px 120px;
+   
 }
 
 .banner-content{
@@ -80,7 +81,7 @@
 .banner-description{
     font-size: 16px;
     font-weight: 500;
-    width: 650px;
+    width: 550px;
     text-align: left;
 }
 .banner-img{
@@ -92,4 +93,74 @@
     width: 450px;
     height: 450px;
     margin-top: -80px;
+}
+
+/* sponsor-part */
+.sponsor-part{
+    width: 600px;
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AAAAAA;
+    margin: 10px auto;
+}
+
+.sponsor-part-img{
+    width: 75px;
+    height: 51px;
+    gap: 10px;
+}
+
+/* card-section */
+.card-section{
+    width: 1047px;
+    height: 1662px;
+    border: 1px solid blue;
+}
+.card-section h3{
+    text-align: center;
+}
+.card-container{
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card{
+    width: 329px;
+    height: 476px;
+    border: 1px solid red;
+    margin: 20px;
+}
+.card-img{
+    width: 300px;
+    height: 256px;
+    border: 1px solid red;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+.card-price{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+.card-img-rating{
+    /* width: 122px; */
+    width: 70%;
+    align-items: center;
+    margin: -15px;
+    border: 1px solid green;
+}
+.card-img-rating img{
+    width: 16%;
+    gap: 5px;
+}
+
+
+.card-description{
+    width: 800%;
+    margin-left: 5px;
+    margin-top: -10px;
 }
